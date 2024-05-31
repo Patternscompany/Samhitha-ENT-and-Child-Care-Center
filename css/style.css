@@ -1504,7 +1504,7 @@
 }
 
 .bg-light-blue {
-  background-color: #035581;
+  background: linear-gradient(90deg, #055983 0%, #2eb6a0 100%);
 }
 .full-height {
   height: 100%;
