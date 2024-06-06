@@ -326,6 +326,9 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 999;
     background: linear-gradient(135deg, #ffa500 30%, cyan);
+   
+    
+    
   }
 }
 
@@ -427,7 +430,7 @@
 @media (max-width: 576px) {
   .header-carousel .owl-nav .owl-prev,
   .header-carousel .owl-nav .owl-next {
-    top: 630px;
+    top: 494px;
     transition: 0.5s;
   }
 
@@ -1411,7 +1414,7 @@
 /*** Footer Start ***/
 .footer {
   background: linear-gradient(rgba(11, 12, 20, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/carousel-1.jpg);
+    url(../img/sonika-pediatric.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
