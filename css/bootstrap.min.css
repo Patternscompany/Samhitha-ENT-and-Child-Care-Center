@@ -3471,11 +3471,11 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: white;
   text-align: inherit;
   white-space: nowrap;
   background:#BC8F8F;
-  border: 1px solid #FAEBD7;
+  border-bottom: 1px solid #FAEBD7;
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
