@@ -1867,3 +1867,9 @@ section.doctor_sec {
   color: #e31a1a;
   width: 100px;
 }
+
+@media(max-width:992px){
+  .sinus-mobile{
+    margin-top: 0%;
+  }
+}
