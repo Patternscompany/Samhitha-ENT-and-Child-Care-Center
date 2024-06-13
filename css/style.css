@@ -11,6 +11,8 @@
   transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
+  background-color: #00b7ac;
+
 }
 /*** Spinner End ***/
 
