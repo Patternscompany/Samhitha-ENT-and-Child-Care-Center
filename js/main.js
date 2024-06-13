@@ -2,14 +2,38 @@
     "use strict";
 
     // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    spinner(0);
+    // var spinner = function () {
+    //     setTimeout(function () {
+    //         if ($('#spinner').length > 0) {
+    //             $('#spinner').removeClass('show');
+    //         }
+    //     }, 1);
+    // };
+    // spinner(0);
+    // Function to show spinner
+var showSpinner = function () {
+    if ($('#spinner').length > 0) {
+        $('#spinner').addClass('show');
+    }
+};
+
+// Function to hide spinner
+var hideSpinner = function () {
+    if ($('#spinner').length > 0) {
+        $('#spinner').removeClass('show');
+    }
+};
+
+// Show spinner on page load
+document.addEventListener('DOMContentLoaded', function () {
+    showSpinner();
+});
+
+// Hide spinner when the page has fully loaded
+window.addEventListener('load', function () {
+    hideSpinner();
+});
+
     
     
     // Initiate the wowjs
