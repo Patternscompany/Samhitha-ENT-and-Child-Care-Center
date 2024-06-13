@@ -714,7 +714,15 @@
 .service .service-item .service-img img {
   transition: 0.5s;
 }
+.text-gold{
+  color: gold;
+}
+.text-halfgold{
+  background: linear-gradient(90deg,gold 0%,white 100%);
+  color: transparent !important;
+ -webkit-background-clip: text;
 
+}
 .service .service-item .service-img::before {
   width: 100%;
   height: auto;
