@@ -1080,12 +1080,12 @@
 
 /*** testimonial Start ***/
 .testimonial {
-  /* background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg); */
+  background: linear-gradient(rgba(21, 185, 217, 0.9), #335475), url(../img/Testimonial-Background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #335475;
+  /* background-color: #335475; */
 }
 
 .testimonial .testimonial-item .testimonial-inner {
