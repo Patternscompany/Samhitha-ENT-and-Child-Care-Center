@@ -82,6 +82,7 @@
 .btn.btn-primary:hover {
   box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
   color: var(--bs-primary) !important;
+  background-color:white !important ;
 }
 
 .btn.btn-light {
@@ -402,7 +403,7 @@
   left: 20px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: linear-gradient(90deg, #7ca482 0, #00b7ac 100%);
+  background: var(--bs-primary);
   color: var(--bs-white);
   font-size: 30px;
   display: flex;
@@ -419,7 +420,7 @@
   right: 20px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: linear-gradient(90deg, #7ca482 0, #00b7ac 100%);
+  background: var(--bs-primary);
   color: var(--bs-white);
   font-size: 30px;
   display: flex;
@@ -762,18 +763,21 @@
   left: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background: linear-gradient(90deg, #055983 0%, #2eb6a0 100%);
+  background:#2eb6a0 ;
+  
   transition: 0.5s;
   z-index: 3;
 }
 
 .service .service-item:hover .service-content::before {
-  background: linear-gradient(90deg, #055983 0%, #2eb6a0 100%);
+  background:#2eb6a0 ;
+  
   height: 100%;
 }
 
 .service .service-item .service-content .service-content-inner {
   transition: 0.5s;
+  
 }
 
 .service .service-item:hover .service-content .service-content-inner {
@@ -908,7 +912,8 @@
 
 .appointment .appointment-form {
   /* background: rgba(239, 162, 134, 0.3); */
-  background-color: #6a5a6d;
+  background-color:transparent;
+  border:1px solid #afafaf;
 }
 
 .appointment .appointment-form .btn.btn-primary {
@@ -1492,12 +1497,12 @@
 .whatwedo1,
 .text-black
  {
-  color: #15b9d9;
+  color: white;
 }
 
 .whatwedo2 {
   margin-top: 1.5rem;
-  color: white;
+  color: rgb(107, 106, 117) !important;
   text-align: -webkit-left;
 }
 
@@ -1515,7 +1520,7 @@
 .gradient-strip {
   width: 200px;
   margin: 7px auto;
-  background: transparent linear-gradient(90deg, #00b7ac, #a2adac 100%) 0% 0%
+  background: var(--bs-primary) 
     no-repeat padding-box;
   height: 4px;
   border-radius: 20px;
@@ -1545,13 +1550,14 @@
 }
 .intro-box {
   transition: 0.3s all;
+  border-left: 1px solid lemonchiffon;
 }
 .intro-box:hover{
   margin-top:10px ;
 }
 
 .bg-light-blue {
-  background: linear-gradient(90deg, #055983 0%, #2eb6a0 100%);
+  background: var(--bs-primary);
 }
 .full-height {
   height: 100%;
