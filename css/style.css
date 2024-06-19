@@ -1895,6 +1895,10 @@ section.doctor_sec {
   width:100%;
  }
 }
+.bg-blue{
+  /* background-color: var(--bs-primary); */
+  color:white;
+}
 
 .videos .container .video {
   height: 300px;
