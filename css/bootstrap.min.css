@@ -6881,7 +6881,7 @@ fieldset:disabled .btn {
 }
 .text-dark {
   /* color: #202135 !important; */
-  color:var(--bs-secondary)
+  color:gold;
 }
 .text-white {
   color: #fff !important;
