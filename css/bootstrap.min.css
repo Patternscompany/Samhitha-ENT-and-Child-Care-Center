@@ -2036,6 +2036,10 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
 }
+.form-select option{
+  color: #15b9d9;
+}
+
 .form-select:focus {
   border-color: #8adcec;
   outline: 0;
