@@ -6862,7 +6862,7 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-   color: var(--bs-primary); !important;
+   color: var(--bs-primary) !important;
 }
 .text-secondary {
   color: rgb(107, 106, 117) !important;
