@@ -3481,7 +3481,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: ;
+  /* color: ; */
   text-align: inherit;
   white-space: nowrap;
   background:white;
