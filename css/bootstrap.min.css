@@ -2875,7 +2875,7 @@ fieldset:disabled .btn {
 }
 .btn-light:hover {
   color: #000;
-  background: linear-gradient(90deg, #055983 0%, #2eb6a0 100%);
+  background: #055983;
   border-color: #fbfafb;
 }
 .btn-check:focus + .btn-light,
@@ -6896,8 +6896,8 @@ fieldset:disabled .btn {
   /* color:gold !important; */
 }
 .text-dark {
-  /* color: #202135 !important; */
-  color:gold;
+  
+  color:#02567f;
 }
 .text-white {
   color: #fff !important;
