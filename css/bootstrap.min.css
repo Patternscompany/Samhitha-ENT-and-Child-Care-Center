@@ -18,7 +18,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #b69bca;
+ 
   --bs-secondary: #efa286;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -36,6 +36,11 @@
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
+}
+:root{
+  --bs-primary: #b69bca;
+  --bs-secondary:white;
+  --bs-third:#2eb6a0;
 }
 *,
 *::before,
