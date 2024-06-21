@@ -18,7 +18,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #15b9d9;
+  --bs-primary: #b69bca;
   --bs-secondary: #efa286;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -2624,7 +2624,7 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #000;
-  background:var(--bs-primary);
+  background:#b69bca;
   border-color: #dfd9df;
 }
 .btn-primary:hover {
@@ -2858,7 +2858,7 @@ fieldset:disabled .btn {
 }
 .btn-light {
   color: white;
-  background: var(--bs-primary);
+  background: #b69bca;
   border-color: #faf9fb;
 }
 .btn-light:hover {
@@ -6929,7 +6929,7 @@ fieldset:disabled .btn {
 }
 .bg-dark {
  
-  background: gold;
+  /* background: gold; */
   border-bottom: 1px solid lightgoldenrodyellow !important;
 }
 .bg-body {

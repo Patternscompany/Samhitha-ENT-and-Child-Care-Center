@@ -11,7 +11,7 @@
   transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
-  background-color: #00b7ac;
+  background-color: #b69bca;
 
 }
 /*** Spinner End ***/
@@ -68,7 +68,7 @@
 }
 
 .btn.btn-primary {
-  box-shadow: inset 0 0 0 0 var(--bs-primary);
+  box-shadow: inset 0 0 0 0 #b69bca;
 }
 
 @media(max-width:992px){
@@ -337,7 +337,7 @@
     left: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 999;
-    background:gold;
+    background:#b69bca;
    
     
     
@@ -359,7 +359,7 @@
 .sticky-top.navbar-light {
   position: fixed;
   /* background: linear-gradient(135deg, #ffa500 30%, cyan); */
-  background: gold;
+  background: #b69bca;
 }
 
 .navbar-light .navbar-nav .nav-link::after {
@@ -403,7 +403,7 @@
   left: 20px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: var(--bs-primary);
+  background:#b69bca;
   color: var(--bs-white);
   font-size: 30px;
   display: flex;
@@ -420,7 +420,7 @@
   right: 20px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: var(--bs-primary);
+  background: #b69bca;
   color: var(--bs-white);
   font-size: 30px;
   display: flex;
@@ -896,7 +896,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgb(51, 84, 117);
+  background-color:#b69bca;
   /* padding-inline: 400px; */
 }
 
@@ -1126,7 +1126,7 @@
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  background: var(--bs-primary);
+  background:#b69bca;
   color: white;
   transition: 0.5s;
 }
@@ -1143,7 +1143,7 @@
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  background: var(--bs-primary);
+  background: #b69bca;
   color: white;
   transition: 0.5s;
 }
@@ -1179,7 +1179,7 @@
   height: 20px;
   border-radius: 50%;
   margin-right: 15px;
-  border: 2px solid var(--bs-primary);
+  border: 2px solid #b69bca;
   background: transparent;
   transition: 0.5s;
 }
@@ -1352,7 +1352,7 @@
 }
 
 .contact .contact-form .btn.btn-light {
-  background-color: var(--bs-primary);
+  background-color: #b69bca;
   box-shadow: inset 0 0 0 0 var(--bs-primary);
 }
 
@@ -1473,7 +1473,7 @@
   /* margin-bottom: ; */
 }
 .service {
-  background-color: #857085;
+  background-color: #b69bca;
 }
 
 .meetourteam {
@@ -1508,14 +1508,14 @@
 }
 
 .bg-light1 {
-  background-color: rgb(51, 84, 117);
+  background-color: #b69bca;
 }
 
 /*** Footer End ***/
 
 /*** copyright Start ***/
 .copyright {
-  background: var(--bs-primary)!important;
+  background: #b69bca!important;
 }
 /*** copyright end ***/
 /* .gradient-strip {
@@ -1556,7 +1556,9 @@
 .intro-box:hover{
   margin-top:10px ;
 }
-
+.banner .bg-light-blue{
+background-color: #b69bca;
+}
 .bg-light-blue {
   background: var(--bs-primary);
 }
