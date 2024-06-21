@@ -227,9 +227,13 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
+<<<<<<< HEAD
  
   color: 
 #01577f !important;
+=======
+  color: var(--bs-third) !important;
+>>>>>>> 3432f5ba9b350e06f2625ee5030b34ff69f6aaf9
 }
 
 .navbar-light .navbar-brand img {
