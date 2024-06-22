@@ -41,6 +41,7 @@
   --bs-primary: #b69bca;
   --bs-secondary:white;
   --bs-third:#2eb6a0;
+  --bs-fourth:#02567f;
 }
 *,
 *::before,
@@ -3783,7 +3784,12 @@ fieldset:disabled .btn {
 .navbar-nav .dropdown-menu {
   position: static;
 
+
+
 }
+
+
+
 @media(max-width:992px){
   .navbar-nav .dropdown-menu{
     height: 30vh;
