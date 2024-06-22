@@ -755,7 +755,7 @@
 .text-halfgold{
   background: linear-gradient(90deg,gold 0%,white 100%);
   color: transparent !important;
- /* -webkit-background-clip: text; */
+ -webkit-background-clip: text;
 
 }
 .service .service-item .service-img::before {
