@@ -12,9 +12,12 @@
     // spinner(0);
     // Function to show spinner
 var showSpinner = function () {
-    if ($('#spinner').length > 0) {
-        $('#spinner').addClass('show');
-    }
+    
+        if ($('#spinner').length > 0) {
+            $('#spinner').addClass('show');
+        }
+    
+  
 };
 
 // Function to hide spinner
@@ -26,7 +29,9 @@ var hideSpinner = function () {
 
 // Show spinner on page load
 document.addEventListener('DOMContentLoaded', function () {
+   
     showSpinner();
+
 });
 
 // Hide spinner when the page has fully loaded
