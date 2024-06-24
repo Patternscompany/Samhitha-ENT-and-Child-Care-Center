@@ -75,7 +75,7 @@ hr {
   opacity: 0.25;
 }
 .navbar .logo{
-  filter: drop-shadow(5px 10px 8px var(--bs-white));
+  filter: drop-shadow(5px 5px 10px var(--bs-white));
 }
 hr:not([size]) {
   height: 1px;
