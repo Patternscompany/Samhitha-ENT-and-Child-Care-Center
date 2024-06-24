@@ -98,7 +98,7 @@ h1,
 
 h1,
 .h1 {
-  font-size: calc(1rem + 1.1vw);
+  font-size: calc(1rem + 1vw);
 }
 @media (min-width: 1200px) {
   h1,
