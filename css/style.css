@@ -1479,6 +1479,7 @@
 }
 /*** Contact End ***/
 
+
 /*** Footer Start ***/
 .footer {
   background: linear-gradient(rgba(11, 12, 20, 0.9), rgba(0, 0, 0, 0.9)),
@@ -1975,4 +1976,17 @@ section.doctor_sec {
   }
 }
 
+.call{
+  
+    background: linear-gradient(rgba(232, 189, 211, 0.9), rgba(125, 147, 211, 0.9)),
+      url(../img/Samhitha-ENT.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+   width:100%;
+    
+    opacity: 0.84;
+    transition:  0.3s, border-radius 0.3s, opacity 0.3s;
+  }
 
